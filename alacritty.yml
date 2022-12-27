@@ -120,7 +120,7 @@ font:
     # family: Mononoki Nerd Font
 
     # The `style` can be specified to pick a specific face.
-    style: Regular
+    style: Bold
 
   # Bold font face
   bold:
@@ -180,7 +180,7 @@ font:
     style: Source Code Pro
 
   # Point size
-  size: 13.0
+  size: 11.0
 
   # Offset is the extra space around each character. `offset.y` can be thought of
   # as modifying the line spacing, and `offset.x` as modifying the letter spacing.
@@ -266,7 +266,7 @@ schemes:
       focused_match:
         foreground: '#44475a'
         background: '#ffb86c'
-      bar:
+      colors.footer_bar:
         background: '#282a36'
         foreground: '#f8f8f2'
     line_indicator:
@@ -656,7 +656,7 @@ schemes:
 # *IsoTopeDark
 # *Ocean
 # *GoogleDark
-colors: *GruvboxDark
+colors: *Dracula
 
 #######################################
 ##       END OF COLOR SCHEMES        ##
